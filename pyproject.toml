@@ -1,0 +1,31 @@
+[project]
+name = 'md_frame'
+version = '0.0.1'
+readme = { file = 'README.md', content-type = 'text/markdown' }
+license = { file = 'LICENSE' }
+
+authors = [
+  { name = 'Ote Leo', email = 'ote.leo73@gmail.com' },
+]
+
+dependencies = [
+  'mistletoe',
+]
+
+[project.optional-dependencies]
+syntax_highlight = [
+  'Pygments',
+]
+
+test = [
+  'pytest',
+  'pytest-cov',
+]
+
+dev = [
+  'ipython',
+]
+
+[build-system]
+requires = [ 'setuptools', 'setuptools-scm' ]
+build-backend = 'setuptools.build_meta'

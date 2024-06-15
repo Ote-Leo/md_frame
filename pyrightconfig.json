@@ -1,0 +1,5 @@
+{
+  "reportMissingTypeArgument": true,
+  "strictListInference": true,
+  "venvPath": ".env/",
+}
